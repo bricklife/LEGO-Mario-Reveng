@@ -1,12 +1,16 @@
 # LEGO Mario Reverse Engineering
 
-- LEGO Mario is a BLE device which supports [LEGO Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/)
-- Its has 5 input devices as follows:
-  - Port 0: `0x47` Accelerometer & Gyro
-  - Port 1: `0x49` Color Barcode
+## Overview
+- LEGO Mario is a BLE device which supports [LEGO Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/). It has five input devices as follows:
+  - Port 0: `0x47` Accelerometer, Gesture?
+  - Port 1: `0x49` Color Barcode, RGB Color
   - Port 2: `0x4a` Pants
-  - Port 3: `0x46` Events, Debug, and more
+  - Port 3: `0x46` Events, Debug, and something
   - Port 6: `0x14` Voltage
+- Each color barcode is drawn with five color lines out of nine (eight?) colors. The code value can be `0x01` - `0xd2`.
+  - e.g. Goomba (クリボー) has a barcode `0x02`.
+- Each pants has a unique 6 bit code physically.
+  - e.g. The default pants is `100001` = `0x22`.
 
 ## Manufacturer Data
 ```
@@ -25,6 +29,7 @@
 | 3 | 0x46 | Input | 0, 1, 2, 3 | - | - |
 
 ## Port Mode Information [0x44]
+
 | Port ID | Mode | Name | RAW Range | PCT Range | SI Range | Symbol | Mapping | Value Format |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 0 | RAW | 0 - 100 | 0 - 100 | 0 - 100 | cnt | Supports NULL, Discrete | 3 * 8 bit |
