@@ -7,9 +7,9 @@
   - Port 2: `0x4a` Pants
   - Port 3: `0x46` Events, Debug, and something
   - Port 6: `0x14` Voltage
-- Each color barcode is drawn with five color lines out of nine (eight?) colors. The code value can be `0x01` - `0xd2`.
-  - e.g. Goomba (クリボー) has a barcode `0x02`.
-- Each pants has a unique 6 bit code physically.
+- Each color barcode is drawn with five out of [nine (eight?) colors](Images/barcode-colors.png). The first two lines are always green and red as header part. The other three lines are code part. The value can be `0x01` - `0xd2` = `7 * 6 * 5`.
+  - e.g. <img src="Images/barcode-02.jpg" width="100" /> is `0x02`.
+- Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at the bottom of LEGO Mario can detect it physically.
   - e.g. The default pants is `100001` = `0x22`.
 
 ## Manufacturer Data
