@@ -13,8 +13,8 @@ LEGO Mario is a BLE device which supports [LEGO Wireless Protocol](https://lego.
 
 ### Color Barcode
 
-Each color barcode is drawn with five out of [nine (eight?) colors](Images/barcode-colors.png). The first two lines are always green and red as header part. The other three lines are code part. The value can be `0x01` - `0xd2` = `7 * 6 * 5`.
-- e.g. <img src="Images/barcode-02.jpg" width="100" /> is `0x02`. <img src="Images/barcode-b8.jpg" width="100" /> is `0xb8`.
+Each color barcode is drawn with five out of [nine (eight?) colors](Images/barcode-colors.png). The first two lines are always green and red as header part. The other three lines are data part. The data value can be `0x01` - `0xd2` = `7 * 6 * 5`.
+- e.g. <img src="Images/barcode-0x02.jpg" width="100" /> is `0x02`. <img src="Images/barcode-0xb8.jpg" width="100" /> is `0xb8`.
 
 ### Pants
 
