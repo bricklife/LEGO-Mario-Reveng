@@ -36,6 +36,14 @@
 | `ff ff 38 01` | ?? |
 | `ff ff 42 01` | Cyan |
 
+## Barcode Colors
+
+<img src="Images/barcode-colors.png" width="400" />
+
+## How to Decode Color Barcode
+
+<img src="Images/how-to-decode-barcode.png" width="400" />
+
 ## Mode 1: RGB Color
 
 | Port Value Sample | Meaning |
@@ -45,7 +53,3 @@
 | `64 11 09` | Red |
 | `10 4b 2d` | Green |
 | `16 42 b3` | Blue |
-
-## How to decode Color Barcode
-
-<img src="Images/how-to-decode-barcode.png" width="400" />
