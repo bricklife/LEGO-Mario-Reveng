@@ -25,4 +25,4 @@
 
 ## 6 bit Order
 
-<img src="Images/pants-code.jpg" />
+<img src="Images/pants-code.jpg" width="400" />
