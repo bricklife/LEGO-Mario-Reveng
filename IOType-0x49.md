@@ -1,12 +1,12 @@
 # IO Type 0x49: Color Barcode Sensor
 
-## Port Information
+## Port Information [0x43]
 
 | Port ID | IO Type | Capabilities | Input Modes | Output Modes | Possible Mode Combination |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 0x49 | Logical Combinable, Input | 0, 1 | - | [0, 1] |
 
-## Port Mode Information
+## Port Mode Information [0x44]
 
 | Port ID | Mode | Name | RAW Range | PCT Range | SI Range | Symbol | Mapping | Value Format |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -45,3 +45,7 @@
 | `64 11 09` | Red |
 | `10 4b 2d` | Green |
 | `16 42 b3` | Blue |
+
+## How to decode Color Barcode
+
+<img src="Images/how-to-decode-barcode.png" width="400" />
