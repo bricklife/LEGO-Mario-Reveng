@@ -21,7 +21,7 @@ Each color barcode is drawn with five out of [nine (eight?) colors](Images/barco
 ### Pants
 
 Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at the bottom of LEGO Mario can detect it physically.
-- e.g. The default pants is `100001` = `0x22`.
+- e.g. The normal pants is `100001` = `0x22`.
 - [See details](IOType-0x4a.md)
 
 ## LEGO Wireless Protocol
