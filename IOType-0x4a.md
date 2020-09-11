@@ -17,7 +17,7 @@
 | Port Value Sample | Meaning |
 | --- | --- |
 | `00` | `000000` None |
-| `06` | `001100` [Propeller](https://www.lego.com/en-us/product/propeller-mario-power-up-pack-71371) |
+| `0C` | `001100` [Propeller](https://www.lego.com/en-us/product/propeller-mario-power-up-pack-71371) |
 | `11` | `010001` [Cat](https://www.lego.com/en-us/product/cat-mario-power-up-pack-71372) |
 | `12` | `010010` [Fire](https://www.lego.com/en-us/product/fire-mario-power-up-pack-71370) |
 | `21` | `100001` Normal |
