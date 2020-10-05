@@ -22,6 +22,9 @@
 | `14 00 ff ff` | <img src="Images/barcode-0x14.jpg" width="50" /> |
 | `2e 00 ff ff` | <img src="Images/barcode-0x2e.jpg" width="50" /> |
 | `29 00 ff ff` | <img src="Images/barcode-0x29.jpg" width="50" /> |
+| `79 00 ff ff` | Bat |
+| `7b 00 ff ff` | Star |
+| `88 00 ff ff` | King Boo |
 | `99 00 ff ff` | <img src="Images/barcode-0x99.jpg" width="50" /> |
 | `b7 00 ff ff` | <img src="Images/barcode-0xb7.jpg" width="50" /> |
 | `b8 00 ff ff` | <img src="Images/barcode-0xb8.jpg" width="50" /> |
