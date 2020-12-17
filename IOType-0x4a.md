@@ -22,7 +22,7 @@
 | `11` | `010001` [Cat](https://www.lego.com/en-us/product/cat-mario-power-up-pack-71372) |
 | `12` | `010010` [Fire](https://www.lego.com/en-us/product/fire-mario-power-up-pack-71370) |
 | `14` | `010100` [Penguin](https://www.lego.com/en-us/product/penguin-mario-power-up-pack-71384) |
-| `21` | `100001` Normal |
+| `21` | `100001` [Normal](https://www.lego.com/en-us/product/adventures-with-mario-starter-course-71360) |
 | `22` | `100010` [Builder](https://www.lego.com/en-us/product/builder-mario-power-up-pack-71373) |
 
 ## 6 bit Order
