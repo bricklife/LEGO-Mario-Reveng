@@ -26,13 +26,13 @@
 | `b7 00 ff ff` | <img src="Images/barcode-0xb7.jpg" width="50" /> |
 | `b8 00 ff ff` | <img src="Images/barcode-0xb8.jpg" width="50" /> |
 | `ff ff 13 00` | White |
-| `ff ff 15 00` | Red |
-| `ff ff 17 00` | Blue |
-| `ff ff 18 00` | Yellow |
+| `ff ff 15 00` | Red (Fire) |
+| `ff ff 17 00` | Blue (Sea) |
+| `ff ff 18 00` | Yellow (Desert) |
 | `ff ff 1a 00` | Black |
-| `ff ff 25 00` | Green |
+| `ff ff 25 00` | Green (Forest) |
 | `ff ff 6a 00` | Brown |
-| `ff ff 0c 01` | ?? |
+| `ff ff 0c 01` | Purple (Poison) |
 | `ff ff 38 01` | ?? |
 | `ff ff 42 01` | Cyan |
 
