@@ -29,10 +29,14 @@ Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at
 ### Manufacturer Data
 
 ```
-97 03 00 43 0a 00 41 00
+97 03 00 43 01 00 41 00
 ```
 - System Type and Device Number: `0x43` LEGO System - Mario?
-- Device Capabilities: `0x0a` Supports Peripheral Role, Act as a Remote Controller (R/C)
+- Device Capabilities: `0x01` Supports Central Role..?
+
+### Hub Properties
+
+- `0x03` FW Version: 3.0.00.0000
 
 ### Port Information [0x43]
 
