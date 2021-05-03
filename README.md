@@ -37,6 +37,7 @@ Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at
 ### Hub Properties
 
 - `0x03` FW Version: 3.0.00.0000
+- `0x12` Volume: 0 - 100
 
 ### Port Information [0x43]
 
