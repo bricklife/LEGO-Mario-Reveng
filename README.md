@@ -48,6 +48,7 @@ Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at
 | 1 | 0x49 | Logical Combinable, Input | 0, 1 | - | [0, 1] |
 | 2 | 0x4a | Input | 0 | - | - |
 | 3 | 0x46 | Input | 0, 1, 2, 3 | - | - |
+| 4 | 0x55 | Input, Output | 0, 1 | 0, 1 | - |
 
 ### Port Mode Information [0x44]
 
