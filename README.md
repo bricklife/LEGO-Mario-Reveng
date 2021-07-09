@@ -9,6 +9,7 @@ LEGO Mario is a BLE device which supports [LEGO Wireless Protocol](https://lego.
 - Port 1: `0x49` Color Barcode, RGB Color
 - Port 2: `0x4a` Pants
 - Port 3: `0x46` Events, Debug, and something
+- Port 4: `0x55` ???
 - Port 6: `0x14` Voltage
 
 ### Color Barcode
