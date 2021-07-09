@@ -63,3 +63,5 @@ Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at
 |  | 1 | VERS | 0 - 255 | 0 - 100 | 0 - 255 | na | Supports NULL, Discrete | 4 * 32 bit |
 |  | 2 | EVENTS | 0 - 65535 | 0 - 100 | 0 - 65535 | na | Supports NULL, Discrete | 2 * 16 bit |
 |  | 3 | DEBUG | 0 - 65535 | 0 - 100 | 0 - 65535 | na | Supports NULL, Discrete | 4 * 32 bit |
+| 4 | 0 | FS Code | 0 - 65535 | 0 - 100 | 0 - 65535 | na | Supports NULL, Discrete | 1 * 16 bit |
+|  | 1 | Events | 0 - 65535 | 0 - 100 | 0 - 65535 | na | Supports NULL, Discrete | 2 * 16 bit |
