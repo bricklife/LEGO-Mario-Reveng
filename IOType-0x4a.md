@@ -17,12 +17,15 @@
 | Port Value Sample | Meaning |
 | --- | --- |
 | `00` | `000000` None |
+| `03` | `000011` [Bee](https://www.lego.com/en-us/product/bee-mario-power-up-pack-71393) |
+| `05` | `000101` [Luigi](https://www.lego.com/en-us/product/adventures-with-luigi-starter-course-71387) |
+| `06` | `000110` [Frog](https://www.lego.com/en-us/product/frog-mario-power-up-pack-71392) |
 | `0a` | `001010` [Tanooki](https://www.lego.com/en-us/product/tanooki-mario-power-up-pack-71385) |
 | `0c` | `001100` [Propeller](https://www.lego.com/en-us/product/propeller-mario-power-up-pack-71371) |
 | `11` | `010001` [Cat](https://www.lego.com/en-us/product/cat-mario-power-up-pack-71372) |
 | `12` | `010010` [Fire](https://www.lego.com/en-us/product/fire-mario-power-up-pack-71370) |
 | `14` | `010100` [Penguin](https://www.lego.com/en-us/product/penguin-mario-power-up-pack-71384) |
-| `21` | `100001` [Normal](https://www.lego.com/en-us/product/adventures-with-mario-starter-course-71360) |
+| `21` | `100001` [Mario](https://www.lego.com/en-us/product/adventures-with-mario-starter-course-71360) |
 | `22` | `100010` [Builder](https://www.lego.com/en-us/product/builder-mario-power-up-pack-71373) |
 
 ## 6 bit Order
