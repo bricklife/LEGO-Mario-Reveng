@@ -29,11 +29,12 @@ Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at
 
 ### Manufacturer Data
 
-```
-97 03 00 43 03 ff ff 00
-```
-- System Type and Device Number: `0x43` LEGO System - Mario?
-- Device Capabilities: `0x03` Supports Central Role and Supports Peripheral Role
+Example: `97 03 00 43 03 ff ff 00`
+- System Type and Device Number:
+  - `0x43` LEGO System - Mario
+  - `0x44` LEGO System - Luigi
+- Device Capabilities:
+  - `0x03` Supports Central Role and Supports Peripheral Role
 
 ### Hub Properties
 
