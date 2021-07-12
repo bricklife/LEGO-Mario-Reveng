@@ -33,7 +33,7 @@
 | `ff ff 25 00` | Green (Forest) |
 | `ff ff 6a 00` | Brown |
 | `ff ff 0c 01` | Purple (Poison) |
-| `ff ff 38 01` | ?? |
+| `ff ff 38 01` | Nougat Brown (Tower biome)|
 | `ff ff 42 01` | Cyan |
 
 ## Barcode Colors
