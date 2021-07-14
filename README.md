@@ -4,7 +4,7 @@
 
 ### LEGO Mario
 
-LEGO Mario is a BLE device which supports [LEGO Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/). It has five input devices as follows:
+LEGO Mario is a BLE device which supports [LEGO Wireless Protocol](https://lego.github.io/lego-ble-wireless-protocol-docs/). It has six input/output devices as follows:
 - Port 0: `0x47` Accelerometer, Gesture?
 - Port 1: `0x49` Color Barcode, RGB Color
 - Port 2: `0x4a` Pants
