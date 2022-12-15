@@ -1,4 +1,4 @@
-# LEGO Mario / LEGO Luigi Reverse Engineering
+# Reverse Engineering of LEGO Mario, Luigi and Peach
 
 ## Overview
 
@@ -22,7 +22,7 @@ Each color barcode is drawn with five out of [nine (eight?) colors](Images/barco
 ### Pants
 
 Each pants has a unique 6 bit code. [The pants sensor](Images/pants-code.jpg) at the bottom of LEGO Mario can detect it physically.
-- e.g. The normal Mario's pants is `100001` = `0x22`.
+- e.g. The normal Mario's pants is `100001` = `0x21`.
 - [See details](IOType-0x4a.md)
 
 ## LEGO Wireless Protocol
@@ -33,6 +33,7 @@ Example: `97 03 00 43 03 ff ff 00`
 - System Type and Device Number:
   - `0x43` LEGO System - Mario
   - `0x44` LEGO System - Luigi
+  - `0x45` LEGO System - Peach
 - Device Capabilities:
   - `0x03` Supports Central Role, Supports Peripheral Role
 
