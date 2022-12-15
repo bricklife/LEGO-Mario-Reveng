@@ -1,4 +1,4 @@
-# Reverse Engineering of LEGO Mario, Luigi and Peach
+# Reverse Engineering of LEGO Mario, Luigi, and Peach
 
 ## Overview
 
