@@ -28,6 +28,7 @@
 | `18` | `011000` [Peach](https://www.lego.com/en-us/product/adventures-with-peach-starter-course-71403) |
 | `21` | `100001` [Mario](https://www.lego.com/en-us/product/adventures-with-mario-starter-course-71360) |
 | `22` | `100010` [Builder](https://www.lego.com/en-us/product/builder-mario-power-up-pack-71373) |
+| `23` | `100011` [Ice](https://www.lego.com/en-us/product/ice-mario-suit-and-frozen-world-expansion-set-71415) |
 
 ## 6 bit Order
 
